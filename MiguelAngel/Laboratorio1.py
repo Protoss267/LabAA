@@ -9,7 +9,7 @@ print("Fin del ejercicio 1")
 
 
 ######################Ejercicio 2##########################
-a = np.ones([5, 3], dtype=int)
+a = np.zeros([5, 3], dtype=int)
 print(a)
 print("Fin del ejercicio 2")
 
@@ -35,7 +35,7 @@ mt.title("Poblacion de ciudades")
 mt.show()
 print("Fin del ejercicio 4")
 ######################Ejercicio 5##########################
-x = np.linspace(-np.pi/2, np.pi/2, 100)
+x = np.linspace(-5, 5, 100)
 y= np.tan(x)
 mt.plot(x,y)
 mt.xlabel("x")
